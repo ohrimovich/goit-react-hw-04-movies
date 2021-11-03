@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  border-bottom: 1px solid rgba(28, 23, 26, 0.2);
+  box-shadow: 0px 7px 10px 1px rgba(28, 23, 26, 0.2);
+}
+
+.content {
+  margin-left: 30px;
+  flex-direction: column;
+}
+
+.img {
+  width: 20vw;
+}
+
+.genre:not(:last-child) {
+  margin-right: 20px;
+}
+
+.score {
+  margin-right: 10px;
+}
